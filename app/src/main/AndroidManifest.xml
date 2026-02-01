@@ -12,13 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.M5Kotlin">
         <activity
+            android:name=".CicloVidaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".CicloVidaActivity"
+            android:name=".FragmentActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
